@@ -83,6 +83,6 @@ RUN sudo apt-get install -y ros-noetic-moveit
 
 RUN apt-get -y update && apt-get -y upgrade && apt-get -y dist-upgrade
 RUN apt-get install -y libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev at
-RUN apt-get install ros-noetic-moveit ros-noetic-moveit-plugins ros-noetic-moveit-planners
+RUN apt-get install ros-noetic-moveit ros-noetic-moveit-plugins ros-noetic-moveit-planners ros-noetic-control-toolbox
 
 CMD cm
